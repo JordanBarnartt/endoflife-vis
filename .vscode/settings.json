@@ -1,0 +1,12 @@
+{
+    "python.linting.mypyEnabled": true,
+    "python.formatting.provider": "black",
+    "python.linting.pylamaEnabled": true,
+    "python.linting.mypyArgs": [
+        "--follow-imports=silent",
+        "--ignore-missing-imports",
+        "--show-column-numbers",
+        "--no-pretty",
+        "--strict"
+    ]
+}
